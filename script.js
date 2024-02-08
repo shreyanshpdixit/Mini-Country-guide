@@ -67,19 +67,14 @@ searchBtn.addEventListener("click", () => {
 });
 
 let btn = document.getElementById('search-btn');
-
-// When the btn is clicked, print info in the console
 btn.addEventListener('click', (ev) => {
     console.log("Btn clicked");
 });
 
 document.addEventListener('keypress', (event) => {
-    // Use the key property instead of keyCode or which
     let key = event.key;
 
-    // 'Enter' key has the value 'Enter'
     if (key === 'Enter') {
-        // Call click function of the button
         btn.click();
     }
 });

@@ -14,6 +14,6 @@ Code-Summary
    - The code attempts to hide an element with ID "result" when the "search-btn" button is clicked by setting its visibility to 'hidden'.
    - This is useful if you want to clear or hide the displayed country information on a new search.
   
-
+https://shreyanshpdixit.github.io/Mini-Country-guide/
 
 NOTE- Yet to optimise for mobile devices
